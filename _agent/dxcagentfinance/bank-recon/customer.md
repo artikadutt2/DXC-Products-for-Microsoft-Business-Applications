@@ -112,7 +112,7 @@ Example: **Bank transaction type** value **01** has Action **Settle customer inv
 Navigate to **Cash and bank management > Setup > Advanced bank reconciliation setup > Transaction code mapping** and ensure all the applicable bank transaction types are mapped for the bank account.
 
 Example: Company bank account has **Statement transaction code** value **050** mapped to **Bank transaction type** value **01**. <br> 
-Thus all bank statement records with **Bank transaction code** value **050** will be reviewed against **Agent knowledge sources** and table **CustInvoiceForBankReconciliationView**. Where the D365 Customer account can be determined, the customer payment journal will be created. If the **Invoice** was provided within a Bank statement field, this will be populated in the Invoice field in the journal and settled where the Action was **Settle customer invoice**. <br> 
+Thus all bank statement records with **Bank transaction code** value **050** will be reviewed for **Create customer payment with agent**. 
 
 
 ## Default description
