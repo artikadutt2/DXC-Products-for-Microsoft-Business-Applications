@@ -56,7 +56,7 @@ Name        | Description         | Type      | Example value
 AccountNum    | Customer account    | Text    | The AccountNum will appear in the following format: AG### where ### represents numeric digits.
 Invoice       | Invoice             | Text    | The Invoice will appear in the following format: CIV-######## or FTI-######## where # represents numeric digits.
 PackingSlipId | Packing slip number    | Text    | The PackingSlipId will appear in the following format: SPK-######## where ######## represents numeric digits.
-SalesId        | Sales order        | Text    | The SalesId will appear in the following format: ###### or SO###### where ###### represents numeric digits.
+SalesId        | Sales order        | Text    | The SalesId will appear in the following format: SO###### where ###### represents numeric digits.
 
 #### Telemetry
 
