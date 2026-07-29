@@ -137,5 +137,6 @@ The following export / read-only data entities are available to review the data 
 3. Security Insights duty utilization (%)
 4. Security Insights privilege utilization (%)
 5. Security Insights privilege entitlement objects view
-6. Security Insights user privilege entitlement objects view
+6. Security Insights user privilege entitlement objects view - Includes 'Microsoft Entra ID' users, doesn't support Change tracking
+7. Security Insights user only privilege entitlement objects view - Excludes 'Microsoft Entra ID' users, supports Change tracking
 
