@@ -25,6 +25,12 @@ Release notes for other models included in product:
 - [DXC License]({{'licensemanager/releasenotes/dxclicense' | relative_url }})
 - [DXC Agent for finance & supply chain management](../../dxcagentframework/releasenotes/index.md)
 
+# Features not yet supported
+
+Feature name	  | D365 version	  | Feature state
+:--       	  |:--        
+Preview automatic bank reconciliation matching results  | 10.0.49  | Preview
+
 # Current version
 
 DXC Agent for Bank reconciliation in D365 FSCM 10.0.47 runs on the following Microsoft releases
