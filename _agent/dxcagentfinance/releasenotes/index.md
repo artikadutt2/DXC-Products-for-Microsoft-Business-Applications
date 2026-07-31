@@ -23,7 +23,7 @@ Product version: 10.0.49 <br> App build: 10.0.2790.11	  | No	| 10.0.47.202607071
 Release notes for other models included in product:
 - [DXC License Manager]({{'licensemanager/releasenotes/dxclicensemanager/' | relative_url }})
 - [DXC License]({{'licensemanager/releasenotes/dxclicense' | relative_url }})
-- [DXC Agent for finance & supply chain management](../../dxcagentframework/releasenotes/index.md)
+- [DXC Agent for finance & supply chain management]({{'dxcagentframework/releasenotes' | relative_url }})
 
 # Features not yet supported
 
