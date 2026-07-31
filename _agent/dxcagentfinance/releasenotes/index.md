@@ -28,7 +28,7 @@ Release notes for other models included in product:
 # Features not yet supported
 
 Feature name	  | D365 version	  | Feature state
-:--       	  |:--        
+:--       	    |:--              |:--   
 Preview automatic bank reconciliation matching results  | 10.0.49  | Preview
 
 # Current version
