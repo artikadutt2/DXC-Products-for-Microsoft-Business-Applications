@@ -7,7 +7,7 @@ toc: true
 # Technical Documentation
 ## Secured File Transfer Protocol (SFTP)
 Libraries used:  
-- SSH.NET (2025.0.0)
+- SSH.NET (2024.1.0) - Match Microsoft's version
 - Newtonsoft.Json (13.0.3)
 
 Target Framework - net48
