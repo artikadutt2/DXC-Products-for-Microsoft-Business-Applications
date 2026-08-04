@@ -1,0 +1,41 @@
+---
+layout: releasenotes-content
+header: Connections
+title: 10.0.47.20260803
+release-version: 10.0.47.20260803
+release-date: 3 August 2026
+state: current
+toc: true
+---
+
+# Release notes
+
+This document describes the features that are either new or changed in the release version mentioned.
+
+Model is used in below products:
+
+- Finance Utilities
+- Smart Business Form Email Manager (Smart Send)
+- Electronic Data Interchange (EDI)
+- DXC Agent
+
+# Version compatibility
+The matrix shows the minimum DXC build versions compatible per Microsoft versions and builds. <br>
+If blank: investigations are ongoing. <br>
+
+D365 Version	  | Any issues found in testing?	  | Product version tested
+:--       	  |:--           			  |:--
+Product version: 10.0.47 <br> App build: 10.0.2527.17	  | No            | 10.0.44.202511252
+Product version: 10.0.48 <br> App build: 10.0.2645.12   | No            | 10.0.44.202511252
+Product version: 10.0.49 <br> App build: 10.0.2790.11	  | No	          | 10.0.44.202511252
+
+# Current version
+DXC Connections {{page.release-version}} runs on the following Microsoft releases
+
+Base                                | Version | Release                                                                                                                                                         
+:---------------------------------  | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Microsoft Dynamics 365 application	| 10.0.47 	  | [What’s new or changed in Dynamics 365 application version 10.0.47](https://docs.microsoft.com/en-us/dynamics365/finance/get-started/whats-new-changed-10-0-47)
+Microsoft Dynamics 365 application	| 10.0.48 	  | [What’s new or changed in Dynamics 365 application version 10.0.48](https://docs.microsoft.com/en-us/dynamics365/finance/get-started/whats-new-changed-10-0-48)
+Microsoft Dynamics 365 application	| 10.0.49 	  | [What’s new or changed in Dynamics 365 application version 10.0.49](https://docs.microsoft.com/en-us/dynamics365/finance/get-started/whats-new-changed-10-0-49)
+
+{% include_relative {{page.release-version}}.md %}

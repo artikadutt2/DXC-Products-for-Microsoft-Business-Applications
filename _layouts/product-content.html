@@ -1,0 +1,118 @@
+---
+layout: default
+toc: true
+---
+<div class="container-fluid page-sticky-header">
+  <div class="container-fluid row justify-content-start">
+    <div class="col-12 col-md-8">
+      <h1 class="title">{{page.header}}</h1>
+      <!-- <h2>{{page.subHeader}}</h2>
+      <p>{{page.description}}</p> -->
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="container-fluid pt-6 col-12">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-3">
+        {%if page.header == "License Manager" %}
+          {% include licensemanager-navbar.html %}
+        {% endif %}
+        {%if page.header == "Connections" %}
+          {% include connections-navbar.html %}
+        {% endif %}
+        {%if page.header == "Core Extensions" %}
+          {% include core-extensions-navbar.html %}
+        {% endif %}
+        {%if page.header == "Solutions for DocuSign and Dynamics 365 (DocuSign)" %}
+          {% include docusign-navbar.html %}
+        {% endif %}
+        {%if page.header == "Electronic Data Interchange (EDI)" %}
+          {% include edi-navbar.html %}
+        {% endif %}
+        {%if page.header == "Finance Utilities" %}
+          {% include financeutilities-navbar.html %}
+        {% endif %}
+        {%if page.header == "Forex Contracts" %}
+          {% include forex-navbar.html %}
+        {% endif %}
+        {%if page.header == "Insights for D365 FO" %}
+          {% include dxcinsights-navbar.html %}
+        {% endif %}
+        {%if page.header == "Item Creation Wizard" %}
+          {% include itemcreation-navbar.html %}
+        {% endif %}
+        {%if page.header == "Product Lifecycle Management (PLM)" %}
+          {% include plm-navbar.html %}
+        {% endif %}
+        {%if page.header == "Security Insights for D365 FO" %}
+          {% include dxcsecurityinsights.html %}
+        {% endif %}
+        {%if page.header == "Smart Business Form Email Manager (SmartSend)" %}
+          {% include smartsend-navbar.html %}
+        {% endif %}
+        {%if page.header == "Care Services" %}
+          {% include care-services-navbar.html %}
+        {% endif %}
+        {%if page.header == "Frequently Asked Questions" %}
+          {% include faq-navbar.html %}
+        {% endif %}
+        {%if page.header == "Product Name" %}
+          {% include sample-navbar.html %}
+        {% endif %}
+        {%if page.header == "DXC Agent for Finance in D365 FSCM" %}
+          {% include dxcagentfinance-navbar.html %}
+        {% endif %}
+        {%if page.header == "DXC Agent for finance & supply chain management" %}
+          {% include agent-framework-navbar.html %}
+        {% endif %}
+      </div>
+      <div class="col-12 col-md-9">
+            <div class="content">
+              <div class="row">
+                {{content}}
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var currentUrl = window.location.pathname.toLowerCase();
+
+  // Adjust these as needed for your folder structure
+  var sections = ["careservices", "coreextensions", "financeutilities", "edi", "licensemanager", "dxcsecurityinsights", "smartsend", "connections", "agent"];
+  var foundSection = sections.find(section => currentUrl.includes(section));
+  if (!foundSection) return;
+
+  // check if it contains releasenotes
+  var releasenotesSection = sections.find(section => currentUrl.includes("releasenotes"));
+  
+  // Get the part after the section name
+  var index = currentUrl.indexOf(foundSection + "/") + foundSection.length + 1;
+  var enabledTitles = currentUrl.substring(index, currentUrl.lastIndexOf("/"));
+  if (!enabledTitles) return;
+
+  var myArray = enabledTitles.split("/").filter(Boolean);
+  if (myArray.length === 0) return;
+
+  // Iteratively build the ID and open each parent
+    let elementId = "";
+    myArray.forEach(function(part, idx) {
+      elementId = elementId ? elementId + "/" + part : part;
+      var el = document.getElementById(elementId);
+      if (el) el.setAttribute("open", "");
+    });
+
+    var previousVersion = document.getElementById("previous-versions");
+    if (previousVersion) previousVersion.setAttribute("open", "");
+    var archiveVersion = document.getElementById("archive-versions");
+    if (archiveVersion) archiveVersion.setAttribute("open", "");
+
+    {% if page.nav_section %}
+    var navSection = document.getElementById("{{ page.nav_section }}");
+    if (navSection) navSection.setAttribute("open", "");
+    {% endif %}
+});
+</script>
