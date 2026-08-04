@@ -1,0 +1,38 @@
+toc:
+  - page: Introduction
+    url: /smartsend
+  - page: FAQ
+    url: /smartsend/readme
+  - title: Setup
+    id: configuration
+    Level_1_items:
+      - page: Parameters
+        url: /smartsend/CONFIGURATION/Parameters
+      - page: Contact information
+        url: /smartsend/CONFIGURATION/Contact-information
+      - page: Address and contact information purpose
+        url: /smartsend/CONFIGURATION/Address-and-contact-information-purpose
+      - page: Email placeholder
+        url: /smartsend/CONFIGURATION/Email_placeholder
+      - page: Email template
+        url: /smartsend/CONFIGURATION/Email-template
+      - page: Security
+        url: /smartsend/CONFIGURATION/Security
+  - title: Processing
+    id: processes
+    Level_1_items:
+      - page: Email processing
+        url: /smartsend/PROCESSES/Email-processing
+      - page: Electronic Reporting
+        url: /smartsend/PROCESSES/Electronic_Reporting
+  - title: Other
+    id: other
+    Level_1_items:
+      - page: Security
+        url: /smartsend/CONFIGURATION/Security
+      - page: Acronyms
+        url: /smartsend/OTHER/Acronyms
+      - page: Data-entities
+        url: /smartsend/OTHER/Data-entities
+  - page: Roadmap
+    url: /smartsend/Roadmap

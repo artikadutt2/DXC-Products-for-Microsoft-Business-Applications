@@ -1,0 +1,20 @@
+toc:
+  - page: Introduction
+    url: /agent/dxcagentfinance
+  - title: Bank reconciliation agents
+    id: dxcagentfinance/bank-recon
+    Level_1_items:
+    - page: Match with bank document
+      url: /agent/dxcagentfinance/bank-recon/match
+    - page: Create voucher
+      url: /agent/dxcagentfinance/bank-recon/voucher
+    - page: Create customer payment
+      url: /agent/dxcagentfinance/bank-recon/customer
+    - page: Create vendor payment
+      url: /agent/dxcagentfinance/bank-recon/vendor      
+  - page: Reporting
+    url: /agent/dxcagentfinance/reporting
+  - page: Governance
+    url: /agent/dxcagentfinance/governance  
+  - page: FAQ
+    url: /agent/dxcagentfinance/FAQ

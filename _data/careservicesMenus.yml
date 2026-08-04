@@ -1,0 +1,145 @@
+toc:
+  - page: Introduction
+    url: /careservices
+  - page: Schedules Inquiries and Reports
+    url: /careservices/INQUIRIES-REPORTS/Schedules-Inquiries-and-Reports
+  - page: Services Management
+    url: /careservices/Services-Management
+  - page: Common Processes
+    url: /careservices/Common-Processes
+  - title: Setup
+    id: setup
+    Level_1_items:
+      - page: Customer and Client Management
+        url: /careservices/SETUP/Customer-and-Client-Management
+      - page: Transfer and Departures
+        url: /careservices/SETUP/Transfer-and-Departures
+      - page: Care Services workflows
+        url: /careservices/SETUP/Care-Services-workflows
+      - page: Billing Journal Automation
+        url: /careservices/SETUP/Billing-Journal-Automation
+      - page: Care Services Parameters
+        url: /careservices/SETUP/CareServices-Parameters
+  - title: Billing
+    id: billing
+    Level_1_items:
+      - page: Community and Disability Care
+        url: /careservices/BILLING/Community-and-Disability-Care
+      - page: Residential Care services and Retirement Villages
+        url: /careservices/BILLING/Residential-Care-services-and-Retirement-Villages
+      - page: Accommodation Payments
+        url: /careservices/BILLING/Accommodation-Payments
+      - page: Refunds
+        url: /careservices/BILLING/Refunds
+      - title: New Billing Codes and Rates Updates
+        id: new-billing-codes-and-rates-updates
+        Level_2_items:
+        - page: Billing Rates
+          url: /careservices/BILLING/BILLING-CODES-AND-RATES/New-Billing-Codes-and-Rates-Updates
+  - title: Collection Letters
+    id: collection-letters
+    Level_1_items:
+      - page: Collection Letters
+        url: /careservices/COLLECTION-LETTERS/Collection-letters
+  - title: Receipts
+    id: receipts
+    Level_1_items:
+      - page: Accommodation payment lumpsum receipt
+        url: /careservices/RECEIPTS/Accommodation-payment-lumpsum-receipt
+      - page: Manual receipt
+        url: /careservices/RECEIPTS/Manual-receipt
+      - page: Direct Debit limits and pre-set amounts
+        url: /careservices/RECEIPTS/Direct-Debit-limits-and-pre-set-amounts
+      - page: Direct Debit Proposal
+        url: /careservices/RECEIPTS/Direct-Debit-Proposal
+  - title: Funding
+    id: funding
+    Level_1_items:
+      - page: Generate funding claims
+        url: /careservices/FUNDING/Generate-funding-claims
+      - page: Generate funding claim form
+        url: /careservices/FUNDING/Generate-funding-claim-form
+      - page: Generate funding claim form file
+        url: /careservices/FUNDING/Generate-funding-claim-form-file
+      - page: Generate funding journal
+        url: /careservices/FUNDING/Generate-funding-journal
+      - page: Review and post funding journal
+        url: /careservices/FUNDING/Review-and-post-funding-journal
+      - page: Import funding claim payment statement
+        url: /careservices/FUNDING/Import-funding-claim-payment-statement
+      - page: Funding reconciliation
+        url: /careservices/FUNDING/Funding
+      - page: Review and post Funding reconciliation journal
+        url: /careservices/FUNDING/Review-and-post-Funding-reconciliation-journal
+      - page: Create funding code
+        url: /careservices/FUNDING/Create-funding-code
+  - title: Periodic Jobs
+    id: periodic-jobs
+    Level_1_items:
+      - page: Periodic Jobs
+        url: /careservices/PERIODIC-JOBS/Periodic-Jobs
+  - title: Services Australia Integration
+    id: services-australia-integration
+    Level_1_items:
+      - page: Overview
+        url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/Overview
+      - page: Setup
+        url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/Setup
+      - page: Custom Service
+        url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/Custom-Service
+      - page: SAHWorkbench
+        url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SAHWorkbench
+      - page: API Reference
+        url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/API-Reference
+      - title: Support at Home
+        id: services-australia-integration/support-at-home
+        Level_2_items:
+          - page: Overview
+            url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/
+          - title: Your Funding Position
+            id: services-australia-integration/support-at-home/your-funding-position
+            Level_3_items:
+              - page: Overview
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/01-funding-position
+              - page: Step by step
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/fp-step-01
+              - page: View all steps
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/fp-view-all
+          - title: Creating the Funding Claim
+            id: services-australia-integration/support-at-home/creating-the-claim
+            Level_3_items:
+              - page: Overview
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/02-creating-the-claim
+              - page: Step by step
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/cc-step-01
+              - page: View all steps
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/cc-view-all
+          - title: Getting Paid
+            id: services-australia-integration/support-at-home/getting-paid
+            Level_3_items:
+              - page: Overview
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/03-getting-paid
+              - page: Step by step
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/gp-step-01
+              - page: View all steps
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/gp-view-all
+          - title: Closing the Loop
+            id: services-australia-integration/support-at-home/closing-the-loop
+            Level_3_items:
+              - page: Overview
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/04-closing-the-loop
+              - page: Step by step
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/cl-step-01
+              - page: View all steps
+                url: /careservices/SERVICES-AUSTRALIA-INTEGRATION/SUPPORT-AT-HOME/cl-view-all
+  - title: Other
+    id: other
+    Level_1_items:
+      - page: Data entities
+        url: /careservices/OTHER/Data-entities
+      - page: Security configuration
+        url: /careservices/OTHER/Security-configuration
+      - page: Definition and Acronyms
+        url: /careservices/OTHER/Acronyms
+      - page: Document Template
+        url: /careservices/OTHER/Document_template
