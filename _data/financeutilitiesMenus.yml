@@ -1,0 +1,186 @@
+toc:
+  - page: Introduction
+    url: /financeutilities
+  - title: Agent
+    id: dxcagentfinance
+    Level_1_items:
+    - page: Bank reconciliation
+      url: /financeutilities/AGENT-FINANCE/bank-recon
+  - title: Cash and bank management
+    id: cash-and-bank-management
+    Level_1_items:
+    - page: Introduction
+      url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Introduction
+    - title: Setup
+      id: cash-and-bank-management/setup
+      Level_2_items:
+         - page: Financial utilities parameters
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Finance-utilities-parameters
+         - page: Financial utilities connections
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Finance-utilities-connections
+         - page: Bank statement format
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Bank-statement-format
+         - page: Populate accounts payable document number
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Populate-account-payable-payment-document-number
+         - page: Bank reconciliation matching rules
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Bank-reconciliation-matching-rules
+         - page: Bank accounts
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Bank-accounts
+         - page: Bank statement import
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Bank-statement-import
+         - page: Modern bank reconciliation
+           url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Setup/Modern-bank-reconciliation    
+    - title: Processing
+      id: cash-and-bank-management/processing
+      Level_2_items:
+        - page: Bank statement import
+          url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Processing/Bank-statement-import
+        - page: Bank reconciliation worksheet
+          url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Processing/Bank-reconciliation-worksheet
+        - page: Reports
+          url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Processing/Cash-and-bank-management-reports
+        - page: Modern bank reconciliation
+          url: /financeutilities/CASH-AND-BANK-MANAGEMENT/Processing/Modern-bank-reconciliation  
+  - title: Accounts payable
+    id: accounts-payable
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/ACCOUNTS-PAYABLE/Introduction
+      - title: Setup
+        id: accounts-payable/setup
+        Level_2_items:
+        - page: Sundry payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/Sundry-payment
+        - page: BPAY payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/BPAY-payment
+        - page: Vendor payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/Vendor-payments
+        - page: Vendor approval workflow
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/Vendor-bank-account-changes-workflow
+        - page: Save electronic reporting to secure location
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/Save-electronic-reporting-file-to-secure-location
+        - page: Self billing invoicing
+          url: /financeutilities/ACCOUNTS-PAYABLE/Setup/Self-billing-invoicing
+      - title: Processing
+        id: accounts-payable/processing
+        Level_2_items:
+        - page: Sundry payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Processing/Sundry-payment
+        - page: BPAY payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Processing/BPAY-payment
+        - page: Vendor payment
+          url: /financeutilities/ACCOUNTS-PAYABLE/Processing/Vendor-payments
+        - page: Save electronic reporting file to secure location
+          url: /financeutilities/ACCOUNTS-PAYABLE/Processing/Save-electronic-reporting-file-to-secure-location
+        - page: Self billing invoicing
+          url: /financeutilities/ACCOUNTS-PAYABLE/Processing/Self-billing-invoicing
+  - title: Accounts receivable
+    id: accounts-receivable
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/ACCOUNTS-RECEIVABLE/Introduction
+      - title: Setup
+        id: accounts-receivable/setup
+        Level_2_items:
+        - page: Customer approval workflow
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Setup/Customer-approval-workflow
+        - page: Customer payments
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Setup/Customer-payments
+        - page: Customer reference
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Setup/Customer-reference
+        - page: Remittance format
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Setup/Remittance-format
+        - page: Customer remittance import
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Setup/Customer-remittance
+      - title: Processing
+        id: accounts-receivable/processing
+        Level_2_items:
+        - page: Customer remittance import
+          url: /financeutilities/ACCOUNTS-RECEIVABLE/Processing/Customer-remittance          
+  - title: Validation
+    id: abn
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/ABN/Introduction
+      - title: Setup
+        id: abn/setup
+        Level_2_items:
+        - page: ABN lookup and validation
+          url: /financeutilities/ABN/Setup/ABN-lookup-and-validation
+        - page: IRD number validation
+          url: /financeutilities/ABN/Setup/IRD-number-validation
+        - page: Bank account validation
+          url: /financeutilities/ABN/Setup/Bank-account-validation          
+      - title: Processing
+        id: abn/processing
+        Level_2_items:
+        - page: ABN lookup and validation
+          url: /financeutilities/ABN/Processing/ABN-lookup-and-validation
+        - page: IRD number validation
+          url: /financeutilities/ABN/Processing/IRD-number-validation
+        - page: Bank account validation
+          url: /financeutilities/ABN/Processing/Bank-account-validation
+  - title: Budgeting
+    id: budgeting
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/BUDGETING/Introduction
+      - title: Setup
+        id: budgeting/setup
+        Level_2_items:
+        - page: Budget import
+          url: /financeutilities/BUDGETING/Setup/Budget-import
+      - title: Processing
+        id: budgeting/processing
+        Level_2_items:
+        - page: Budget import
+          url: /financeutilities/BUDGETING/Processing/Budget-import
+        - page: Example file format
+          url: /financeutilities/BUDGETING/Processing/Example-file-format
+  - title: Encryption/decryption
+    id: encryption
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/ENCRYPTION/Introduction
+      - title: Setup
+        id: encryption/setup
+        Level_2_items:
+        - page: Encryption/decryption
+          url: /financeutilities/ENCRYPTION/Setup/Encryption-decryption
+  - title: Electronic reporting export
+    id: electronic-reporting-export
+    Level_1_items:
+      - page: Introduction
+        url: /financeutilities/ELECTRONIC-REPORTING-EXPORT/Introduction
+      - title: Setup
+        id: electronic-reporting-export/setup
+        Level_2_items:
+        - page: Electronic reporting export connection
+          url: /financeutilities/ELECTRONIC-REPORTING-EXPORT/Setup/Electronic-reporting-export-connections
+        - page: Document types
+          url: /financeutilities/ELECTRONIC-REPORTING-EXPORT/Setup/Document-types
+        - page: Electronic reporting destination
+          url: /financeutilities/ELECTRONIC-REPORTING-EXPORT/Setup/Electronic-reporting-destination
+      - title: Processing
+        id: electronic-reporting-export/processing  
+        Level_2_items:
+        - page: Export electronic reporting file
+          url: /financeutilities/ELECTRONIC-REPORTING-EXPORT/Processing/Save-electronic-reporting-file-to-secure-location
+  - title: Other
+    id: other
+    Level_1_items:
+      - page: Data entities
+        url: /financeutilities/Other/Data-entities
+      - page: GER configuration
+        url: /financeutilities/Other/GER-configuration   
+  - title: Technical guide
+    id: technical
+    Level_1_items:
+      - page: Web API Endpoint
+        url: /financeutilities/Technical/Web-API-Endpoint
+      - page: Technical Architecture
+        url: /financeutilities/Technical/Technical-Architecture        
+  - page: Roadmap and release schedule
+    url: /financeutilities/Roadmap
+  - page: FAQ
+    url: /financeutilities/FAQ

@@ -1,0 +1,13 @@
+toc:
+  - page: Introduction
+    url: /licensemanager
+  - page: D365 FO
+    url: /licensemanager/FinOps
+  - page: Web App
+    url: /licensemanager/ReactWebApp
+  - page: Support and Maintenance
+    url: /licensemanager/SupportMaintenance
+  - page: Acronyms
+    url: /licensemanager/Acronyms
+  - page: FAQ
+    url: /licensemanager/FAQ

@@ -1,4 +1,4 @@
-A Microsoft Solution Partner, DXC Practice for Microsoft helps enterprise and mid-market organisations to digitally transform their business and move to the cloud with cost-effective, rapid projects using Microsoft applications and our team of experts.
+A Microsoft Gold Partner, DXC Practice for Microsoft helps enterprise and mid-market organisations to digitally transform their business and move to the cloud with cost-effective, rapid projects using Microsoft applications and our team of experts.
 
 DXC Practice for Microsoft offers a variety of products for D365 Financials and Operations. <br>
 Please select the applicable product from below:
