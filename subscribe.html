@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="subscribe-card">
+    <h2>Subscribe to Product News</h2>
+    <div class="form-group">
+        <label for="EmailAddress">Email:</label>
+        <input type="email" id="EmailAddress" placeholder="Please provide your email" aria-label="Email">
+    </div>
+    <div class="form-group">
+        <input type="checkbox" id="General" onclick="agreeToSubscription()" value="General">
+        <label for="General">I agree to get updates on general news and announcements.</label>
+    </div>
+    {% include subscription.html %}
+    <button id="subscribebtn" class="button-primary" onclick="subscribe()">Subscribe</button>
+    <a href="./unsubscribe.html" class="unsubscribe-link">Unsubscribe</a>
+</div>
+
+<script src="./assets/js/subscribe.js"></script>

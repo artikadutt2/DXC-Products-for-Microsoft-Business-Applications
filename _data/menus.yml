@@ -1,0 +1,18 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 2
+  - name: "Subcribe news"
+    url: "/subscribe"
+    weight: 3
+  - name: "FAQ"
+    url: "/FAQ"
+    weight: 5
+  - name: "Book a demo/Contact us"
+    url: "/contact-us"
+    weight: 6 
+
+footer:
+  - name: ""
+    url: "/FAQ"
+    weight: 2
