@@ -44,3 +44,4 @@ Watch DXC Technology’s short demonstration on **DXC Agent for Bank reconciliat
 
 <video controls width="100%" poster="{{ '/agent/dxcagentfinance/IMAGES/BankReconAgentVideoPoster.png' | relative_url }}"> <source src="{{ '/agent/dxcagentfinance/videos/DXC-AgentForBankReconciliation-in-D365-FSCM.mp4' | relative_url }}" type="video/mp4"> Your browser does not support the video tag. </video>
 
+<video controls width="100%" poster="{{ '/agent/dxcagentfinance/IMAGES/BankReconAgentVideoPoster.png' | relative_url }}"> <source src="https://dxcanzproductstorage.blob.core.windows.net/dxcproductdocssite/agents/videos/DXC-AgentForBankReconciliation-in-D365-FSCM.mp4?sp=r&amp;st=2026-08-10T06:54:45Z&amp;se=2027-08-10T15:09:45Z&amp;spr=https&amp;sv=2026-02-06&amp;sr=b&amp;sig=%2FsXcA81l8shDyQMcEjEXxIJ4%2FGp%2FqvgNcSGxm7yjvT8%3D" type="video/mp4"> Your browser does not support the video tag. </video>
